@@ -76,8 +76,3 @@ cmake -S . -B build
 cmake --build build
 ctest --test-dir build --output-on-failure
 ```
-
-## Notes for GitHub / Development
-
-* Avoid committing compiled binaries (such as `main.exe` or `build/` directories) or temporary binary output files unless intentionally needed.
-* Update `src/main.cpp` if you want to customize the demo scenario or add new sample routes, stock items, or dispatch requests.
